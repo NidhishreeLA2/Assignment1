@@ -33,3 +33,14 @@ class Book1 extends Book{
 	
 	
 }
+
+//class can extend to two interfaces
+class person implements Int1,Int2{
+
+	@Override
+	public String drink() {
+		// TODO Auto-generated method stub
+		return Int1.super.drink();
+	}
+	
+}
